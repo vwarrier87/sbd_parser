@@ -59,6 +59,6 @@ class SBD:
 		print(self.field_bitstrings)
 		print(self.field_ints)
 
-		print(self.field_ints[0][0]*.00018 -180)
-		print(self.field_ints[0][1]*.00018 -90)	
+		print(self.field_ints[0][0]*.00018 -90)
+		print(self.field_ints[0][1]*.00018 -180)	
 

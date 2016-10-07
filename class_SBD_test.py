@@ -23,4 +23,9 @@ def test_sbd_parse():
 
 
 
-test_sbd_parse()
+#test_sbd_parse()
+with open('300434060605980_000341.sbd', 'r') as file:
+		data = file.readlines()
+		sbd = SBD(data[0])
+		sbd.display_parsed_data()
+

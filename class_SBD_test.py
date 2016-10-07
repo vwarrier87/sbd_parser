@@ -11,11 +11,11 @@ def test_sbd_display_packet_size():
 #sbd.get_header_encoding()
 #sbd.get_packet_contents()
 #sbd.get_packet_size()
-with open('300434060605980_000319.sbd', 'r') as file:
+with open('300434060605980_000341.sbd', 'r') as file:
 	data = file.readlines()
 sbd = SBD(data[0])
-sbd.parse_data()
-
+#sbd.parse_data()
+sbd.display_parsed_data()
 # print(sbd.get_bitstring())
 # sbd_f_data=sbd.parse_data()
 # header = sbd.get_header()
